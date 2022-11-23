@@ -1,0 +1,437 @@
+[debug] [2022-11-22T16:42:46.755Z] ----------------------------------------------------------------------
+[debug] [2022-11-22T16:42:46.757Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yosoy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-11-22T16:42:46.757Z] CLI Version:   11.16.1
+[debug] [2022-11-22T16:42:46.757Z] Platform:      win32
+[debug] [2022-11-22T16:42:46.757Z] Node Version:  v16.17.1
+[debug] [2022-11-22T16:42:46.758Z] Time:          Tue Nov 22 2022 11:42:46 GMT-0500 (Eastern Standard Time)
+[debug] [2022-11-22T16:42:46.758Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-22T16:42:46.827Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-22T16:42:46.828Z] > authorizing via signed-in user (yosoymatiasn@gmail.com)
+[debug] [2022-11-22T16:42:46.917Z] java version "19.0.1" 2022-10-18
+Java(TM) SE Runtime Environment (build 19.0.1+10-21)
+Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
+
+[debug] [2022-11-22T16:42:46.941Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore"}}
+[debug] [2022-11-22T16:42:46.952Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:42:46.952Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:42:46.952Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:42:46.952Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:42:46.952Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-11-22T16:42:46.961Z] [hub] writing locator at C:\Users\yosoy\AppData\Local\Temp\hub-authentication-63e55.json
+[debug] [2022-11-22T16:42:46.971Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:42:46.971Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:42:46.971Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-11-22T16:42:46.992Z] defaultcredentials: writing to file C:\Users\yosoy\AppData\Roaming\firebase\yosoymatiasn_gmail_com_application_default_credentials.json
+[debug] [2022-11-22T16:42:46.994Z] Setting GAC to C:\Users\yosoy\AppData\Roaming\firebase\yosoymatiasn_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\yosoy\\AppData\\Roaming\\firebase\\yosoymatiasn_gmail_com_application_default_credentials.json"}}
+[debug] [2022-11-22T16:42:46.996Z] > refreshing access token with scopes: []
+[debug] [2022-11-22T16:42:46.997Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-11-22T16:42:46.997Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-22T16:42:47.149Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-11-22T16:42:47.149Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-11-22T16:42:47.163Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig [none]
+[debug] [2022-11-22T16:42:47.464Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig 200
+[debug] [2022-11-22T16:42:47.464Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig {"projectId":"authentication-63e55","databaseURL":"https://authentication-63e55-default-rtdb.firebaseio.com","storageBucket":"authentication-63e55.appspot.com","locationId":"us-east4"}
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2022-11-22T16:42:47.487Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-22T16:42:47.487Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2022-11-22T16:42:47.487Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\yosoy\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.15.1.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","authentication-63e55","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\yosoy\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.15.1.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"authentication-63e55\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2022-11-22T16:42:54.873Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-22T16:42:54.873Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-11-22T16:42:54.873Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\yosoy\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\yosoy\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-11-22T16:42:54.998Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-11-22T16:42:54.998Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\yosoy\Desktop\firebase-auth\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\" for Cloud Functions..."}}
+[debug] [2022-11-22T16:42:55.150Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-22T16:42:57.779Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^0.2.0",
+    "typescript": "^4.5.4"
+  },
+  "private": true
+}
+[debug] [2022-11-22T16:42:57.779Z] Building nodejs source
+[debug] [2022-11-22T16:42:57.779Z] Analyzing nodejs backend spec
+[debug] [2022-11-22T16:42:57.781Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-22T16:42:58.288Z] Serving at port 9005
+
+[debug] [2022-11-22T16:42:58.695Z] Got response from /__/functions.yaml {"endpoints":{"processSignUp":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/firebase.auth/eventTypes/user.create","eventFilters":{"resource":"projects/authentication-63e55"},"retry":false},"labels":{},"entryPoint":"processSignUp"},"updateRoles":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"updateRoles"},"isAdmin":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"isAdmin"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-22T16:42:58.703Z] {"severity":"INFO","message":"shutdown requested via /__/quitquitquit"}
+
+[info] +  functions: Loaded functions definitions from source: processSignUp, updateRoles, isAdmin. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: processSignUp, updateRoles, isAdmin."}}
+[debug] [2022-11-22T16:42:58.715Z] addAuthTrigger {"eventTrigger":{"eventType":"providers/firebase.auth/eventTypes/user.create","resource":"projects/authentication-63e55"}}
+[info] +  functions[us-central1-processSignUp]: auth function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mauth\u001b[22m function initialized."}}
+[info] +  functions[us-central1-updateRoles]: http function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/updateRoles). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/updateRoles)."}}
+[info] +  functions[us-central1-isAdmin]: http function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/isAdmin). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/isAdmin)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-11-22T16:51:58.307Z] ----------------------------------------------------------------------
+[debug] [2022-11-22T16:51:58.309Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yosoy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-11-22T16:51:58.309Z] CLI Version:   11.16.1
+[debug] [2022-11-22T16:51:58.309Z] Platform:      win32
+[debug] [2022-11-22T16:51:58.309Z] Node Version:  v16.17.1
+[debug] [2022-11-22T16:51:58.310Z] Time:          Tue Nov 22 2022 11:51:58 GMT-0500 (Eastern Standard Time)
+[debug] [2022-11-22T16:51:58.310Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-22T16:51:58.376Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-22T16:51:58.377Z] > authorizing via signed-in user (yosoymatiasn@gmail.com)
+[debug] [2022-11-22T16:51:58.472Z] java version "19.0.1" 2022-10-18
+Java(TM) SE Runtime Environment (build 19.0.1+10-21)
+
+[debug] [2022-11-22T16:51:58.473Z] Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
+
+[debug] [2022-11-22T16:51:58.490Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore"}}
+[debug] [2022-11-22T16:51:58.501Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:51:58.501Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:51:58.502Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:51:58.502Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:51:58.502Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project authentication-63e55. This may result in unexpected behavior. 
+[debug] [2022-11-22T16:51:58.511Z] [hub] writing locator at C:\Users\yosoy\AppData\Local\Temp\hub-authentication-63e55.json
+[debug] [2022-11-22T16:51:58.521Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:51:58.521Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:51:58.521Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-11-22T16:51:58.540Z] defaultcredentials: writing to file C:\Users\yosoy\AppData\Roaming\firebase\yosoymatiasn_gmail_com_application_default_credentials.json
+[debug] [2022-11-22T16:51:58.543Z] Setting GAC to C:\Users\yosoy\AppData\Roaming\firebase\yosoymatiasn_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\yosoy\\AppData\\Roaming\\firebase\\yosoymatiasn_gmail_com_application_default_credentials.json"}}
+[debug] [2022-11-22T16:51:58.545Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig [none]
+[debug] [2022-11-22T16:51:59.127Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig 200
+[debug] [2022-11-22T16:51:59.127Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig {"projectId":"authentication-63e55","databaseURL":"https://authentication-63e55-default-rtdb.firebaseio.com","storageBucket":"authentication-63e55.appspot.com","locationId":"us-east4"}
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2022-11-22T16:51:59.145Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-22T16:51:59.145Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2022-11-22T16:51:59.146Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\yosoy\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.15.1.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","authentication-63e55","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\yosoy\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.15.1.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"authentication-63e55\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2022-11-22T16:52:07.331Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-22T16:52:07.331Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-11-22T16:52:07.331Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\yosoy\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\yosoy\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-11-22T16:52:07.459Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-11-22T16:52:07.460Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\yosoy\Desktop\firebase-auth\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\" for Cloud Functions..."}}
+[debug] [2022-11-22T16:52:07.604Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-22T16:52:10.112Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^0.2.0",
+    "typescript": "^4.5.4"
+  },
+  "private": true
+}
+[debug] [2022-11-22T16:52:10.112Z] Building nodejs source
+[debug] [2022-11-22T16:52:10.112Z] Analyzing nodejs backend spec
+[debug] [2022-11-22T16:52:10.113Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-22T16:52:10.469Z] Serving at port 9005
+
+[debug] [2022-11-22T16:52:10.796Z] Got response from /__/functions.yaml {"endpoints":{"processSignUp":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/firebase.auth/eventTypes/user.create","eventFilters":{"resource":"projects/authentication-63e55"},"retry":false},"labels":{},"entryPoint":"processSignUp"},"updateRoles":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"updateRoles"},"isAdmin":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"isAdmin"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-22T16:52:10.808Z] {"severity":"INFO","message":"shutdown requested via /__/quitquitquit"}
+
+[info] +  functions: Loaded functions definitions from source: processSignUp, updateRoles, isAdmin. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: processSignUp, updateRoles, isAdmin."}}
+[debug] [2022-11-22T16:52:10.819Z] addAuthTrigger {"eventTrigger":{"eventType":"providers/firebase.auth/eventTypes/user.create","resource":"projects/authentication-63e55"}}
+[info] +  functions[us-central1-processSignUp]: auth function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mauth\u001b[22m function initialized."}}
+[info] +  functions[us-central1-updateRoles]: http function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/updateRoles). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/updateRoles)."}}
+[info] +  functions[us-central1-isAdmin]: http function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/isAdmin). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/isAdmin)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[warn] !  ui: Fatal error occurred: 
+   Emulator UI has exited with code: 1, 
+   stopping all running emulators {"metadata":{"emulator":{"name":"ui"},"message":"Fatal error occurred: \n   Emulator UI has exited with code: 1, \n   stopping all running emulators"}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[debug] [2022-11-22T16:52:39.331Z] ----------------------------------------------------------------------
+[debug] [2022-11-22T16:52:39.333Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\yosoy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-11-22T16:52:39.334Z] CLI Version:   11.16.1
+[debug] [2022-11-22T16:52:39.334Z] Platform:      win32
+[debug] [2022-11-22T16:52:39.334Z] Node Version:  v16.17.1
+[debug] [2022-11-22T16:52:39.335Z] Time:          Tue Nov 22 2022 11:52:39 GMT-0500 (Eastern Standard Time)
+[debug] [2022-11-22T16:52:39.335Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-11-22T16:52:39.410Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-11-22T16:52:39.410Z] > authorizing via signed-in user (yosoymatiasn@gmail.com)
+[debug] [2022-11-22T16:52:39.501Z] java version "19.0.1" 2022-10-18
+Java(TM) SE Runtime Environment (build 19.0.1+10-21)
+Java HotSpot(TM) 64-Bit Server VM (build 19.0.1+10-21, mixed mode, sharing)
+
+[debug] [2022-11-22T16:52:39.526Z] Parsed Java major version: 19
+[info] i  emulators: Starting emulators: auth, functions, firestore {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore"}}
+[debug] [2022-11-22T16:52:39.538Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:52:39.538Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:52:39.538Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:52:39.538Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:52:39.538Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project authentication-63e55. This may result in unexpected behavior. 
+[debug] [2022-11-22T16:52:39.548Z] [hub] writing locator at C:\Users\yosoy\AppData\Local\Temp\hub-authentication-63e55.json
+[debug] [2022-11-22T16:52:39.557Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:52:39.557Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-11-22T16:52:39.557Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-11-22T16:52:39.578Z] defaultcredentials: writing to file C:\Users\yosoy\AppData\Roaming\firebase\yosoymatiasn_gmail_com_application_default_credentials.json
+[debug] [2022-11-22T16:52:39.580Z] Setting GAC to C:\Users\yosoy\AppData\Roaming\firebase\yosoymatiasn_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\yosoy\\AppData\\Roaming\\firebase\\yosoymatiasn_gmail_com_application_default_credentials.json"}}
+[debug] [2022-11-22T16:52:39.583Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig [none]
+[debug] [2022-11-22T16:52:39.853Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig 200
+[debug] [2022-11-22T16:52:39.853Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/authentication-63e55/adminSdkConfig {"projectId":"authentication-63e55","databaseURL":"https://authentication-63e55-default-rtdb.firebaseio.com","storageBucket":"authentication-63e55.appspot.com","locationId":"us-east4"}
+[warn] !  firestore: Did not find a Cloud Firestore rules file specified in a firebase.json config file. {"metadata":{"emulator":{"name":"firestore"},"message":"Did not find a Cloud Firestore rules file specified in a firebase.json config file."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2022-11-22T16:52:39.871Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-22T16:52:39.872Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2022-11-22T16:52:39.872Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\yosoy\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.15.1.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","authentication-63e55","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\yosoy\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.15.1.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"authentication-63e55\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2022-11-22T16:52:47.508Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-11-22T16:52:47.509Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-11-22T16:52:47.509Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\yosoy\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\yosoy\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-11-22T16:52:47.630Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-11-22T16:52:47.631Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\yosoy\Desktop\firebase-auth\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\" for Cloud Functions..."}}
+[debug] [2022-11-22T16:52:47.774Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-22T16:52:50.352Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^0.2.0",
+    "typescript": "^4.5.4"
+  },
+  "private": true
+}
+[debug] [2022-11-22T16:52:50.352Z] Building nodejs source
+[debug] [2022-11-22T16:52:50.352Z] Analyzing nodejs backend spec
+[debug] [2022-11-22T16:52:50.354Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-22T16:52:50.593Z] Serving at port 9005
+
+[debug] [2022-11-22T16:52:50.781Z] Got response from /__/functions.yaml {"endpoints":{"processSignUp":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/firebase.auth/eventTypes/user.create","eventFilters":{"resource":"projects/authentication-63e55"},"retry":false},"labels":{},"entryPoint":"processSignUp"},"updateRoles":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"updateRoles"},"isAdmin":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"isAdmin"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-22T16:52:50.788Z] {"severity":"INFO","message":"shutdown requested via /__/quitquitquit"}
+
+[info] +  functions: Loaded functions definitions from source: processSignUp, updateRoles, isAdmin. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: processSignUp, updateRoles, isAdmin."}}
+[debug] [2022-11-22T16:52:50.798Z] addAuthTrigger {"eventTrigger":{"eventType":"providers/firebase.auth/eventTypes/user.create","resource":"projects/authentication-63e55"}}
+[info] +  functions[us-central1-processSignUp]: auth function initialized. {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mauth\u001b[22m function initialized."}}
+[info] +  functions[us-central1-updateRoles]: http function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/updateRoles). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/updateRoles)."}}
+[info] +  functions[us-central1-isAdmin]: http function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/isAdmin). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/authentication-63e55/us-central1/isAdmin)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-11-22T17:43:29.026Z] File C:\Users\yosoy\Desktop\firebase-auth\functions\src\index.ts changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\src\\index.ts changed, reloading triggers"}}
+[debug] [2022-11-22T17:43:30.040Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] !  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-11-22T17:43:32.629Z] > [functions] package.json contents: {
+  "name": "functions",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts .",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.25.4",
+    "firebase-functions-test": "^0.2.0",
+    "typescript": "^4.5.4"
+  },
+  "private": true
+}
+[debug] [2022-11-22T17:43:32.629Z] Building nodejs source
+[debug] [2022-11-22T17:43:32.629Z] Analyzing nodejs backend spec
+[debug] [2022-11-22T17:43:32.629Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-11-22T17:43:32.834Z] Serving at port 9005
+
+[debug] [2022-11-22T17:43:33.022Z] Got response from /__/functions.yaml {"endpoints":{"processSignUp":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/firebase.auth/eventTypes/user.create","eventFilters":{"resource":"projects/authentication-63e55"},"retry":false},"labels":{},"entryPoint":"processSignUp"},"updateRoles":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"updateRoles"},"isAdmin":{"platform":"gcfv1","labels":{},"callableTrigger":{},"entryPoint":"isAdmin"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-11-22T17:43:33.025Z] {"severity":"INFO","message":"shutdown requested via /__/quitquitquit"}
+
+[info] +  functions: Loaded functions definitions from source: processSignUp, updateRoles, isAdmin. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: processSignUp, updateRoles, isAdmin."}}
+[debug] [2022-11-22T17:48:10.211Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/authentication-63e55/trigger_multicast [none]
+[debug] [2022-11-22T17:48:10.211Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/authentication-63e55/trigger_multicast {"eventId":"8e0e151f-285d-411f-9a21-b439533009aa","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/authentication-63e55","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2022-11-22T17:48:10.210Z","data":{"uid":"HV7UgQsUHiHPQu3ZtMuUR2jMVfoV","email":"grass.grass.587@example.com","emailVerified":true,"displayName":"Grass Grass","metadata":{"lastSignInTime":"2022-11-22T17:48:10.209Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"6664413434457400956224305881543709498433","federatedId":"6664413434457400956224305881543709498433","displayName":"Grass Grass","email":"grass.grass.587@example.com","screenName":"grass_grass"}]}}
+[debug] [2022-11-22T17:48:10.215Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-22T17:48:10.215Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-22T17:48:10.216Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-11-22T17:48:10.217Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/authentication-63e55/trigger_multicast 200
+[debug] [2022-11-22T17:48:10.217Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/authentication-63e55/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2022-11-22T17:48:10.218Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-11-22T17:48:10.218Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-11-22T17:48:10.218Z] Accepted request POST /functions/projects/authentication-63e55/triggers/us-central1-processSignUp-0 --> us-central1-processSignUp-0
+[debug] [2022-11-22T17:48:10.221Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-11-22T17:48:10.222Z] [functions] Got req.url=/functions/projects/authentication-63e55/triggers/us-central1-processSignUp-0, mapping to path=/functions/projects/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/functions/projects/authentication-63e55/triggers/us-central1-processSignUp-0, mapping to path=/functions/projects/"}}
+[debug] [2022-11-22T17:48:10.228Z] [worker-pool] addWorker(us-central1-processSignUp) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-processSignUp)"}}
+[debug] [2022-11-22T17:48:10.228Z] [worker-pool] Adding worker with key us-central1-processSignUp, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-processSignUp, total=1"}}
+[debug] [2022-11-22T17:48:11.280Z] [runtime-status] [22424] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-11-22T17:48:11.282Z] [runtime-status] [22424] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-11-22T17:48:11.282Z] [runtime-status] [22424] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-11-22T17:48:11.283Z] [runtime-status] [22424] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-11-22T17:48:11.327Z] [runtime-status] [22424] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-11-22T17:48:11.327Z] [runtime-status] [22424] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-11-22T17:48:11.328Z] [runtime-status] [22424] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-11-22T17:48:11.329Z] [runtime-status] [22424] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-11-22T17:48:11.329Z] [runtime-status] [22424] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-11-22T17:48:11.330Z] [runtime-status] [22424] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-11-22T17:48:11.430Z] [runtime-status] [22424] initializeApp(DEFAULT) {"storageBucket":"authentication-63e55.appspot.com","databaseURL":"https://authentication-63e55-default-rtdb.firebaseio.com","projectId":"authentication-63e55"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] initializeApp(DEFAULT) {\"storageBucket\":\"authentication-63e55.appspot.com\",\"databaseURL\":\"https://authentication-63e55-default-rtdb.firebaseio.com\",\"projectId\":\"authentication-63e55\"}"}}
+[debug] [2022-11-22T17:48:11.435Z] [runtime-status] [22424] Functions runtime initialized. {"cwd":"C:\\Users\\yosoy\\Desktop\\firebase-auth\\functions","node_version":"16.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\yosoy\\\\Desktop\\\\firebase-auth\\\\functions\",\"node_version\":\"16.17.1\"}"}}
+[debug] [2022-11-22T17:48:11.435Z] [runtime-status] [22424] Listening to port: \\?\pipe\fire_emu_9a89990a36860734 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] Listening to port: \\\\?\\pipe\\fire_emu_9a89990a36860734"}}
+[debug] [2022-11-22T17:48:11.461Z] [worker-us-central1-processSignUp-6e13c28a-7582-4bac-aa53-663762b27073]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-processSignUp-6e13c28a-7582-4bac-aa53-663762b27073]: IDLE"}}
+[debug] [2022-11-22T17:48:11.461Z] [worker-pool] submitRequest(triggerId=us-central1-processSignUp) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-processSignUp)"}}
+[debug] [2022-11-22T17:48:11.461Z] [worker-us-central1-processSignUp-6e13c28a-7582-4bac-aa53-663762b27073]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-processSignUp-6e13c28a-7582-4bac-aa53-663762b27073]: BUSY"}}
+[info] i  functions: Beginning execution of "processSignUp" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"Beginning execution of \"processSignUp\""}}
+[debug] [2022-11-22T17:48:11.472Z] [runtime-status] [22424] ProcessBackground: lifting resource.name from resource {"name":"projects/authentication-63e55","service":"firebaseauth.googleapis.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] ProcessBackground: lifting resource.name from resource {\"name\":\"projects/authentication-63e55\",\"service\":\"firebaseauth.googleapis.com\"}"}}
+[debug] [2022-11-22T17:48:11.472Z] [runtime-status] [22424] RunBackground {"data":{"uid":"HV7UgQsUHiHPQu3ZtMuUR2jMVfoV","email":"grass.grass.587@example.com","emailVerified":true,"displayName":"Grass Grass","metadata":{"lastSignInTime":"2022-11-22T17:48:10.209Z"},"customClaims":{},"providerData":[{"providerId":"google.com","rawId":"6664413434457400956224305881543709498433","federatedId":"6664413434457400956224305881543709498433","displayName":"Grass Grass","email":"grass.grass.587@example.com","screenName":"grass_grass"}]},"context":{"eventId":"8e0e151f-285d-411f-9a21-b439533009aa","eventType":"providers/firebase.auth/eventTypes/user.create","resource":"projects/authentication-63e55","params":{},"timestamp":"2022-11-22T17:48:10.210Z"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"[runtime-status] [22424] RunBackground {\"data\":{\"uid\":\"HV7UgQsUHiHPQu3ZtMuUR2jMVfoV\",\"email\":\"grass.grass.587@example.com\",\"emailVerified\":true,\"displayName\":\"Grass Grass\",\"metadata\":{\"lastSignInTime\":\"2022-11-22T17:48:10.209Z\"},\"customClaims\":{},\"providerData\":[{\"providerId\":\"google.com\",\"rawId\":\"6664413434457400956224305881543709498433\",\"federatedId\":\"6664413434457400956224305881543709498433\",\"displayName\":\"Grass Grass\",\"email\":\"grass.grass.587@example.com\",\"screenName\":\"grass_grass\"}]},\"context\":{\"eventId\":\"8e0e151f-285d-411f-9a21-b439533009aa\",\"eventType\":\"providers/firebase.auth/eventTypes/user.create\",\"resource\":\"projects/authentication-63e55\",\"params\":{},\"timestamp\":\"2022-11-22T17:48:10.210Z\"}}"}}
+[debug] [2022-11-22T17:48:11.485Z] [worker-us-central1-processSignUp-6e13c28a-7582-4bac-aa53-663762b27073]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-processSignUp-6e13c28a-7582-4bac-aa53-663762b27073]: IDLE"}}
+[debug] [2022-11-22T17:48:11.485Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] i  functions: Finished "processSignUp" in 13.6509ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-processSignUp"},"extension":{},"message":"Finished \"processSignUp\" in 13.6509ms"}}
